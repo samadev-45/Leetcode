@@ -1,6 +1,6 @@
-/* Write your T-SQL query statement below */
-Update Salary
-set sex=CASE sex
-when 'm' then 'f'
-else 'm'
-end;
+UPDATE Salary  
+SET sex=
+CASE  
+        WHEN sex = 'f' THEN 'm' 
+        WHEN sex = 'm' THEN 'f' 
+        End
